@@ -10,8 +10,8 @@ import shutil, os
 from pathlib import Path
 
 import numpy as np
-from niftypet import nimpa
-import spm12
+from amypet.antspy_adapter import nimpa
+from amypet.antspy_adapter import spm12
 
 from .align import align_frames
 

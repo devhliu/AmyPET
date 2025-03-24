@@ -1,12 +1,11 @@
 '''
-Adapter module to switch between nimpa/spm12 and ANTsPy implementations
+Adapter module that provides ANTsPy implementations of nimpa and spm12 functionality
 '''
 
 __author__ = "devhliu"
 __copyright__ = "Copyright 2025-03-24"
 
 import logging
-import os
 
 log = logging.getLogger(__name__)
 

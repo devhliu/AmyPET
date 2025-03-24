@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 import nibabel as nib
 import numpy as np
 from scipy.optimize import fmin
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 from tqdm import trange
 
 from niftypad import basis

@@ -14,7 +14,7 @@ import dcm2niix
 import numpy as np
 from matplotlib import pyplot as plt
 from miutil.fdio import hasext
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 
 from .preproc import r_trimup
 from .proc import extract_vois

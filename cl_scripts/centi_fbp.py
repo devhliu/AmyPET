@@ -12,7 +12,7 @@ from subprocess import run
 
 import dcm2niix
 import numpy as np
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 
 import amypet
 from amypet import centiloid as centi

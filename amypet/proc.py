@@ -11,9 +11,9 @@ import shutil
 from pathlib import Path, PurePath
 
 import numpy as np
-import spm12
+from amypet.antspy_adapter import spm12
 from miutil.fdio import hasext
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 
 from .dyn_tools import dyn_timing
 from .utils import get_atlas

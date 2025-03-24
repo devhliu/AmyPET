@@ -13,7 +13,7 @@ Options:
 import logging
 from pathlib import Path
 
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 
 log = logging.getLogger(__name__)
 

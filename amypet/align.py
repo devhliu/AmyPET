@@ -11,7 +11,7 @@ from itertools import combinations
 from pathlib import Path
 
 import numpy as np
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 
 from .preproc import id_acq
 from .ur_tools import preproc_ur

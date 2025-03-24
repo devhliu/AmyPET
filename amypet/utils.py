@@ -16,7 +16,7 @@ import csv
 import matplotlib.pyplot as plt
 import numpy as np
 import toml
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 from scipy.stats import linregress
 
 try:          # py<3.9

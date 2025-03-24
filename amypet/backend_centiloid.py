@@ -25,9 +25,9 @@ import pickle
 
 import matplotlib.pyplot as plt
 import numpy as np
-import spm12
+from amypet.antspy_adapter import spm12
 from miutil.fdio import hasext, nsort
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 
 from .utils import cl_anchor_fldr, cl_masks_fldr
 

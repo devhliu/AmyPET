@@ -15,9 +15,9 @@ from subprocess import run
 
 import dcm2niix
 import numpy as np
-import spm12
+from amypet.antspy_adapter import spm12
 from miutil.fdio import hasext
-from niftypet import nimpa
+from amypet.antspy_adapter import nimpa
 
 from .utils import get_atlas
 
