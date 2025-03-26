@@ -25,7 +25,7 @@ except ImportError:
     from matplotlib.figure import Figure as FigureBase
 
 from packaging.version import Version
-from streamlit.version import _get_installed_streamlit_version
+#from streamlit.version import _get_installed_streamlit_version
 
 from amypet.gui import BaseParser, __licence__, __version__, get_main_parser, patch_argument_kwargs
 from amypet.utils import is_one_or_more
@@ -37,7 +37,8 @@ THIS = Path(__file__).parent
 CONFIG = {
     'page_title': "AmyPET", 'page_icon': str(THIS / "program_icon.png"), 'layout': 'wide',
     'initial_sidebar_state': 'expanded'}
-if _get_installed_streamlit_version() >= Version("0.88.1"):
+#if _get_installed_streamlit_version() >= Version("0.88.1"):
+if True:
     CONFIG['menu_items'] = {
         "Get help": "https://github.com/AMYPAD/AmyPET/issues", "Report a Bug": None, "About": f"""
 AmyPET Pipeline
